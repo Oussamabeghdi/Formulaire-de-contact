@@ -16,12 +16,13 @@ body {
 
   border-radius: 5px;
   border: 2ps solid #c4c4c4;
-  margin: 77px;
+  margin: 77px auto;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  gap: 15px;
 }
 h1 {
   /* position: absolute; */
@@ -39,14 +40,13 @@ h1 {
 }
 input {
   border-radius: 5px;
-  margin: 0 40px 15px 40px;
+  margin: 15px 40px;
   height: 30px;
   gap: 20px;
 }
 form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 textarea {
   margin: 15px 40px;
@@ -66,5 +66,5 @@ button {
   justify-items: center;
   /* justify-content: center; */
   text-align: center;
-  margin: 0 0 30px 40px;
+  margin-left: 40px;
 }
